@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AGRIO™"
+        android:id="@+id/title"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="65sp"
+        android:layout_marginBottom="50sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20sp"
+        android:layout_margin="25sp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="5sp"
+                    android:text="Category : "
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:entries="@array/equip_cat"
+                    android:textSize="20sp"
+                    android:inputType="text" />
+
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="40sp"
+                    android:text="Find"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="15sp"
+                    android:background="@drawable/btn_profile3"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/b_dsp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="5sp"
+                    android:text="Available Items : "
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="550sp"
+                    android:layout_margin="10sp"
+                    android:background="@drawable/shape"
+                    android:id="@+id/equ_lst"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

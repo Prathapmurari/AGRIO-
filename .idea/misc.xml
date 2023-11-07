@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable-v24/equip_foreground.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/btn_profile.xml" value="0.116" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/buttonshap.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/effect.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/effects.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/equip_foreground.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/ic_android_black_16dp.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/products_foreground.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/selector_button_bg.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/drawable/shape.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/aboutus.xml" value="0.17552083333333332" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/equipments.xml" value="0.22" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/equpiment_details.xml" value="0.17447916666666666" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/euipments.xml" value="0.17552083333333332" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/feedback.xml" value="0.17447916666666666" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/flash.xml" value="0.17447916666666666" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/govt.xml" value="0.17447916666666666" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/help.xml" value="0.17447916666666666" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/home.xml" value="0.22" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/list_item.xml" value="0.1" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/login.xml" value="0.17447916666666666" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/orders.xml" value="0.17552083333333332" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/payments.xml" value="0.17447916666666666" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/product_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/products.xml" value="0.22" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/profile.xml" value="0.1" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/progress.xml" value="0.144017094017094" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/layout/signup.xml" value="0.17552083333333332" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/menu/menu_options.xml" value="0.17552083333333332" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1465" />
+        <entry key="..\:/BinaryBeasts/agriculture/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1465" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

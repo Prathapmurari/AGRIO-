@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:orientation="vertical"
+        android:weightSum="11">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AGRIO"
+                android:textStyle="bold|italic"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_marginTop="21dp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginBottom="21dp"
+                android:src="@drawable/fla" />
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_weight="8"
+            android:id="@+id/maingrid"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:padding="14dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/product"
+                android:layout_width="0dp"
+                android:layout_height="18dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:foreground="@drawable/effects"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="14dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="About Agrio"
+                            android:textColor="#4FA6B1"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:textStyle="bold|italic"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Since 2018, Commonland’s involvement in the landscape has expanded to support other organizations seeking to transform Western Australia’s food and agriculture system. We are proud to be partnering with the University of Western Australia’s Centre for Social Impact (UWA SCI), RegenWA, Sustain: the Australian Food Network and the Regional Regeneration Alliance.
+
+To date, the 4 Returns framework has positively impacted approximately 10,000 people either directly or indirectly. The 4 Returns framework has triggered innovative ecologically-based farming practices enabled by sustainable water management systems. It has also led to measures to restore the soils and biodiversity and introduced a scale-up approach that helps attract equity from retail and institutional investors."
+                            android:layout_marginTop="20dp"
+                            android:textSize="15sp"
+                            android:padding="20sp"
+                            android:gravity="center_vertical"
+                            android:justificationMode="inter_word"/>
+
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

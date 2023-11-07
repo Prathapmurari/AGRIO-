@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Agrio</string>
+
+    <string-array name="cat">
+        <item>Select Category</item>
+        <item>Seeds</item>
+        <item>Pulses</item>
+        <item>Nuts</item>
+        <item>Fiber crops</item>
+        <item>Cereals</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+    </string-array>
+<string-array name="Eduip">
+    <item>Select Category</item>
+    <item>Mini sprayer</item>
+    <item>Trolley Pump</item>
+    <item>Trailer sprayer</item>
+    <item>Combine Harvester</item>
+    <item>Cultivator</item>
+</string-array>
+
+    <string-array name="equip_cat">
+        <item>Select category</item>
+        <item>Mini sprayer</item>
+        <item>Trolley Pump</item>
+        <item>Trailer sprayer</item>
+        <item>Combine Harvester</item>
+        <item>Cultivator</item>
+    </string-array>
+</resources>
